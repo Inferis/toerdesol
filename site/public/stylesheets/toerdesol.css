@@ -1,0 +1,151 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #ffffff;
+	font-family: 'PT Serif', serif;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+}
+
+#around {
+	width: 960px;
+	margin: 150px auto 20px auto;
+	position: relative;
+}
+
+h1 {
+	width: 400px;
+	height: 110px;
+	position: absolute;
+	top: -153px;
+	left: -4px;
+	background: url(/images/toerdesol.png);
+	z-index: 90;
+	text-indent: -10000px;
+}
+
+#menu {
+	position: absolute;
+	top: -110px;
+	left: 420px;
+	width: 540px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: 'Copse', Arial;
+	font-size: 16pt;
+	text-align: right;
+}
+
+#menu li {
+	margin: 12px 8px 0 0;
+	padding: 0;
+	display:inline-block;
+	white-space:nowrap;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+/* rainbow */
+
+#t {
+	position: absolute;
+	height: 20px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	display: block;
+	clear: both;
+	background: url(/images/rainbow/t.png) repeat-x;
+	float: left;
+	z-index: 5;
+}
+ 
+#tl {
+	float: left;
+	height: 20px;
+	width: 20px;
+	padding: 0;
+	margin: 0;
+	display: block;
+	background: url(/images/rainbow/tl.png);
+	z-index: 6;
+}
+ 
+#tr {
+	float: right;
+	height: 20px;
+	width: 20px;
+	padding: 0;
+	margin: 0;
+	display: block;
+	background: url(/images/rainbow/tr.png);
+	z-index: 6;
+}
+ 
+#l, #r {
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	position: fixed;
+	display: block;
+	background-color: #dfff0c;
+	z-index: 3;	
+} 
+ 
+#l {
+	left: 0;
+	background: url(/images/rainbow/l.png) repeat-y;
+}
+ 
+#r {
+	right: 0;
+	background: url(/images/rainbow/r.png) repeat-y;
+}
+ 
+#bl {
+	float: left;
+	height: 20px;
+	width: 20px;
+	display: block;
+	background: url(/images/rainbow/bl.png);
+	z-index: 6;
+}
+ 
+#b {
+	position: relative;
+	height: 20px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	clear: both;
+	bottom: 0;
+	background: url(/images/rainbow/b.png) repeat-x;
+	z-index: 6;
+}
+ 
+#br {
+	float: right;
+	height: 20px;
+	width: 20px;
+	display: block;
+	background: url(/images/rainbow/br.png);
+	z-index: 6;
+}
+
+#bottom {
+	width: 960px;
+	height: 250px;
+	margin: 0 auto;
+	position: relative;
+	bottom: -20px;
+	z-index: 888;
+}
+

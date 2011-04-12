@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Site</title>
+  <link href='http://fonts.googleapis.com/css?family=Copse' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Cherry+Cream+Soda' rel='stylesheet' type='text/css'>
+  
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<div id="around">
+	
+<h1>Toer De Sol</h1>
+
+<ul id="menu">
+	<li><a href="/koers">De koers</a></li>
+	<li>&bullet;</li>
+	<li><a href="/parcours">Het parcours</a></li>
+	<li>&bullet;</li>
+	<li><a href="/regels">De regels</a></li>
+	<li><a href="/geschiedenis">De geschiedenis</a></li>
+	<li>&bullet;</li>
+	<li><a href="/fotos">De Foto's</a></li>
+	<li>&bullet;</li>
+	<li><a href="/vrienden">De vrienden</a></li>
+</ul>
+
+<%= yield %>
+
+</div>
+
+<div id="bottom" style="background: url(/images/bottom/<%= controller.action_name %>.jpg);"></div>
+
+<div id="t"><div id="tl"></div><div id="tr"></div></div><div id="l"></div><div id="r"></div><div id="b"><div id="bl"></div><div id="br"></div></div> 
+
+</body>
+</html>
