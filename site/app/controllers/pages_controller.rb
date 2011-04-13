@@ -1,5 +1,9 @@
+require 'rdiscount'
+
 class PagesController < ApplicationController
   def index 
+    markdown = Markdown.new(string = File.open(File.join(RAILS_ROOT, 'database', 'index.md'), 'rb') { |file| file.read })
+    @content = markdown.to_html
     render 'page'
   end
   
