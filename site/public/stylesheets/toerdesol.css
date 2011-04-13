@@ -1,3 +1,7 @@
+html {
+	height: 100%;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -8,28 +12,65 @@ body {
 	font-weight: normal;
 	text-align: left;
 	color: #000000;
+	height: 100%;
+}
+
+#footer {
+   height: 250px;
+   position: relative;
+}
+
+#clearfooter {
+	clear: both;
+	height: 250px;
+}
+
+#nonfooter {
+   min-height: 100%;
+   margin-bottom: -270px;
+   position: relative;
 }
 
 #around {
 	width: 960px;
-	margin: 150px auto 20px auto;
+	margin: 0 auto 20px auto;
 	position: relative;
+	padding: 10px 0 30px 0;
 }
 
 h1 {
 	width: 400px;
 	height: 110px;
-	position: absolute;
-	top: -153px;
+	position: relative;
+	top: -13px;
 	left: -4px;
 	background: url(/images/toerdesol.png);
 	z-index: 90;
 	text-indent: -10000px;
 }
 
+h2, h3, h4 {
+	font-family: 'Copse', Arial;
+	color: #666;
+	font-weight: normal;
+	margin-top: 40px;
+}
+
+h2 {
+	font-size: 24pt;
+}
+
+h3 {
+	font-size: 18pt;
+}
+
+h4 {
+	font-size: 14pt;
+}
+
 #menu {
 	position: absolute;
-	top: -110px;
+	top: 30px;
 	left: 420px;
 	width: 540px;
 	list-style: none;

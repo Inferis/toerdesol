@@ -1,34 +1,39 @@
 require 'rdiscount'
 
 class PagesController < ApplicationController
-  def index 
-    markdown = Markdown.new(string = File.open(File.join(RAILS_ROOT, 'database', 'index.md'), 'rb') { |file| file.read })
+  
+  def rendercontent
+    markdown = RDiscount.new(string = File.open(File.join(RAILS_ROOT, 'db', self.action_name + '.md'), 'rb') { |file| file.read })
     @content = markdown.to_html
     render 'page'
   end
   
+  def index 
+    self.rendercontent 
+  end
+  
   def koers
-    render 'page'
+    self.rendercontent 
   end
 
   def parcours
-    render 'page'
+    self.rendercontent 
   end
 
   def regels
-    render 'page'
+    self.rendercontent 
   end
   
   def geschiedenis
-    render 'page'
+    self.rendercontent 
   end
 
   def fotos
-    render 'page'
+    self.rendercontent 
   end
 
   def vrienden
-    render 'page'
+    self.rendercontent 
   end
 
 end
