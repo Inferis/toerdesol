@@ -21,3 +21,10 @@ Deze koers is enkel voor deelnemers van 9 tot en met 12 jaar. Alle fietsen (die 
 -	Start: 13u voor café De Solsleutel
 -	Aantal rondes (1,2 km): 4
 -	Prijs: gratis
+
+
+### Café De Solsleutel
+
+Alle inschrijvingen vinden op de dag zelf plaats voor <a href="http://maps.google.com/maps/place?cid=16398576451341683549&q=cafe+de+solsleutel,+ranst&hl=en&cd=1&cad=src:ppiwlink&ei=MImtTcaFD4TljgeE3s3rAg&sig2=1lDXS2pxcyALC_McpcHnKA">café De Solsleutel</a>:
+
+<iframe width="960" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=cafe+de+solsleutel,+ranst&amp;aq=&amp;sll=51.19067,4.565316&amp;sspn=0.005063,0.011737&amp;ie=UTF8&amp;hq=cafe+de+solsleutel,&amp;hnear=Ranst,+Antwerp,+Flemish+Region,+Belgium&amp;t=h&amp;cid=16398576451341683549&amp;ll=51.196504,4.561043&amp;spn=0.018825,0.082397&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>

@@ -2,14 +2,14 @@ require 'rdiscount'
 
 class PagesController < ApplicationController
   
-  def rendercontent
+  def rendercontent(view = 'page')
     markdown = RDiscount.new(string = File.open(File.join(RAILS_ROOT, 'db', self.action_name + '.md'), 'rb') { |file| file.read })
     @content = markdown.to_html
-    render 'page'
+    render view
   end
   
   def index 
-    self.rendercontent 
+    self.rendercontent 'index'
   end
   
   def koers
